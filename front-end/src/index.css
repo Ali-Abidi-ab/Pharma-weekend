@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: 'Mina';
+  src: url("./Assets/Fonts/Mina-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'MinaBold';
+  src: url("./Assets/Fonts/Mina-Bold.ttf") format("truetype");
+}
+
+@layer base {
+  * {
+    font-family: "Mina";
+    color: #1e1e1e;
+  }
+}
